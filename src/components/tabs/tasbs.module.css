@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+  margin-bottom: 10px;
+}
+.tab {
+  padding: 10px;
+  flex-grow: 1;
+  text-align: center;
+  cursor: pointer;
+}
+.tab:first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.active {
+  border-bottom: var(--orange) 2px solid;
+}

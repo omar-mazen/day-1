@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+ul {
+  list-style: none;
+}
+:root {
+  --secondary-background: #f1ece6;
+  --text-white: white;
+  --text-primary: black;
+  --text-secondary: #c2c2c2;
+  --blue: #76b7cd;
+  --orange: #d98326;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+button {
+  cursor: pointer;
+}
+:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+  text-align: center;
+  margin: 50px;
+}

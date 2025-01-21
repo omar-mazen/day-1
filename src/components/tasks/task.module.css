@@ -1,0 +1,19 @@
+.task {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.task:not(:last-child) {
+  border-bottom: var(--blue) 1px solid;
+}
+.task-content {
+  padding-left: 10px;
+  flex-grow: 1;
+}
+.checked {
+  color: var(--text-secondary);
+  text-decoration: line-through;
+}

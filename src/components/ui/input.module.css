@@ -1,0 +1,29 @@
+.add-new-task-input {
+  display: inline-block;
+  position: relative;
+}
+.add-new-task-input input {
+  resize: none;
+  border-radius: 20px;
+  width: 600px;
+  height: 40px;
+  padding: 5px 30px;
+  background-color: var(--secondary-background);
+}
+.add-new-task-input button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 70px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  color: var(--text-white);
+  background-color: var(--blue);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+input,
+button {
+  border: 0;
+}
